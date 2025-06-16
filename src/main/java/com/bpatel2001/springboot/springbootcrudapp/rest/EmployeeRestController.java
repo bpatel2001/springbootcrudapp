@@ -1,7 +1,6 @@
 package com.bpatel2001.springboot.springbootcrudapp.rest;
 
 
-import com.bpatel2001.springboot.springbootcrudapp.dao.EmployeeDAO;
 import com.bpatel2001.springboot.springbootcrudapp.entity.Employee;
 import com.bpatel2001.springboot.springbootcrudapp.service.EmployeeService;
 import com.fasterxml.jackson.databind.ObjectMapper;
