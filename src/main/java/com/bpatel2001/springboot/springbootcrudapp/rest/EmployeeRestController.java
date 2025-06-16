@@ -57,4 +57,13 @@ public class EmployeeRestController {
 
     }
 
+    // Add mapping for PUT /employees
+    @PutMapping("/employees")
+    public Employee updateEmployee(@RequestBody Employee theEmployee) {
+
+        Employee dbEmployee = employeeService.save(theEmployee);
+
+        return dbEmployee;
+    }
+
 }
